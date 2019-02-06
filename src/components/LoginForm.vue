@@ -53,7 +53,7 @@ data () {
       }
 
       // Axios POST call using (url, formpayload above)
-      let uri = 'http://157.230.2.57:3000/user/login';
+      let uri = 'http:/192.34.56.162:3000/user/login';
       axios.post(uri, formPayload).then(function(response) {
 
 

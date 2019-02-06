@@ -74,7 +74,7 @@ export default {
       }
 
       // Set the uri that axios needs
-      var uri = 'http://157.230.2.57:3000/user/register';
+      var uri = 'http://192.34.56.162:3000/user/register';
 
       // Axios post request to the address above
       axios.post(uri, formPayload).then(function(response){

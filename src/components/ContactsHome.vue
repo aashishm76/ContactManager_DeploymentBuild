@@ -84,7 +84,7 @@ export default {
             var currentUserId = { userId : localStorage.getItem('userId')};
             
             // API call to get all contacts
-            let uri = 'http://157.230.2.57:3000/contacts/getAllContacts';
+            let uri = 'http://192.34.56.162:3000/contacts/getAllContacts';
             axios.post(uri, currentUserId).then(function(response) {
                 // console.log(response.data);
                 // Push contacts here
@@ -110,7 +110,7 @@ export default {
             };
 
             // Take that addContactPayload and send it to axios post request
-            let uri = 'http://157.230.2.57:3000/contacts/addContact';
+            let uri = 'http://192.34.56.162:3000/contacts/addContact';
             axios.post(uri, AddContactPayload).then(function(response){
                 console.log(response.data);
             })
