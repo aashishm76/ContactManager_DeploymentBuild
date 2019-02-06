@@ -88,6 +88,11 @@ export default {
       
     },
 
+    // Link up the button to go to login
+    routeRegister() {
+      router.push('/login');
+    },
+
     // Function to reset the form
     onReset (evt) {
       evt.preventDefault();
