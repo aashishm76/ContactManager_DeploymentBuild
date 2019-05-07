@@ -1,29 +1,8 @@
-# YeetCM
+# Contact Manager
+Complete contact manager built using VueJS, Bootstrap, and Vue Router. Hooks into a backend built with NodeJS/ExpressJS and MongoDB
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
